@@ -1,0 +1,29 @@
+** Projet de colorisation d'images par deep learning **
+
+L'objectif est d'entraîner un ou des réseaux de neurones à retrouver/générer les couleurs d'images en niveaux de gris.
+À travers ce projet, il s'agira de montrer tes connaissances et compétences :
+
+- En deep learning : architecture de réseaux, entraînement, fonctions de perte, généralisation, overfitting, évaluation, etc.
+- En computer vision : représentation des images, espaces couleurs, convolutions, etc.
+
+La première étape consisterait donc à :
+- se documenter sur les espaces couleurs, notamment RGB, Lab et HSV, et savoir comment convertir des images d'un espace à un autre (voir les bibliothèques `scikit-image` et `kornia`)
+
+- se documenter sur quelques méthodes de colorisation par deep learning, notamment celles-ci :
+    - Colorful Image Colorisation (https://arxiv.org/abs/1603.08511)
+    - ChromaGAN: Adversarial Picture Colorization with Semantic Class Distribution (https://arxiv.org/abs/1907.09837)
+
+- récupérer le code d'au moins une de ces méthodes et l'utiliser pour coloriser quelques images
+
+- commencer à implémenter un réseau CNN simple au format U-Net (se documenter sur cette architecture si besoin) qui permettra de prédire les canaux RGB à partir d'images à niveaux de gris
+
+Concernant les données, tu peux commencer à travailler avec un dataset simple comme CIFAR-10 ou CIFAR-100. 
+Ça permettra d'aller vite pour prototyper, mais les images sont très petites donc on n'y voit pas grand chose.
+Une autre possibilité est de regarder le dataset DIV2K : https://data.vision.ee.ethz.ch/cvl/DIV2K
+et de travailler avec des versions redimensionnées des images (à 128x128 ou 256x256 par exemple) ou avec des patchs extraits des images.
+
+Au niveau du calendrier, on peut envisager un rendu vers le 5 juillet, avec un compte-rendu hebdomadaire.
+Nous ferons alors un oral final avec présentation + questions (sur le projet et ses résultats sur le code que tu auras développé, et sur le deep learning en général).
+
+Je te propose de me faire un premier compte-rendu de ton avancement à la fin de la semaine prochaine, le 14 juin (un petit document écrit et ton code actuel via un dépôt Git).
+Tu peux me dire si tu as des questions d'ici-là. Selon l'avancement, je t'enverrai des instructions pour la suite.
