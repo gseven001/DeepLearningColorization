@@ -5,3 +5,5 @@ Présentation des fichiers du répertoire courant
 'colour_space.ipynb' : documentation sur les espaces de couleurs (RGB, Lab, HSV) et code pour passer d'un espace à un autre
 
 'CNN_U-Net.ipynb' : début d'implémentation d'un réseau CNN simple au format U-Net qui permettra de prédire les canaux RGB à partir d'images à niveaux de gris
+
+'jalon1.pdf' : premier compte-rendu
