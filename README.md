@@ -8,4 +8,6 @@ Présentation des fichiers du répertoire courant
 
 'jaloni.pdf' : ième compte-rendu
 
-repertoire 'model' : contient les fichiers avec les poids des modèles entraînés
+'unet_no_skip_cifar10.pth' :  poids du UNet sans skip connections entraînés
+
+'unet_skip_cifar10.pth' :  poids du UNet avec skip connections entraînés
